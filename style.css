@@ -6,11 +6,23 @@
 }
 /* Shared class */
 .p-primary{
-    color: rgb(13, 19, 33);
+color: rgb(13, 19, 33);
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 opacity: 0.7;
+}
+.btn-primary{
+   box-sizing: border-box;
+   border: 1px solid rgb(13, 19, 33);
+   opacity: 0.7;
+   color: rgb(13, 19, 33);
+   font-size: 15px;
+   font-weight: 600;
+   line-height: 23px;
+   text-align: center;
+   width: 150px;
+   height: 48px;
 }
 /* This is navbar section */
 .navbar{
@@ -101,4 +113,109 @@ padding-top: 26px;
     padding-top: 30px;
 }
 /* done header section */
-/*  */
+/* start main section */
+/* why web development section */
+
+
+.why-web-development{
+   width:1240px ;
+   height:1395px ;
+   background-color: rgba(13, 19, 33, 0.02);
+   border-radius: 16px;
+   
+   margin: 0 auto;
+   margin-top: 74px;
+}
+.web-main-content{
+    width: 1050px;
+    height: 1235px;
+    
+  
+   margin: 0 auto;
+   margin-top: 80px;
+
+
+    
+}
+.web-main-content .point1,.point2,.point3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.web-heading h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.web-heading p{
+    text-align: center;
+}
+.web-main-content .point1{
+    width:1050px ;
+    height:350px ;
+    
+    border-radius: 16px;
+
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom:37px ;
+    margin-top: 32px;
+}
+.web-main-content .point2{
+    width:1050px ;
+    height:350px ;
+  
+    border-radius: 16px;
+
+ background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+ margin-bottom:37px
+
+}
+
+.web-main-content .point3{
+    border-radius: 16px;
+
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+
+
+ width:1050px ;
+    height:350px ;
+    margin-bottom:37px;
+
+}
+.point1 .point1-content ,.point2 .point2-content,.point3 .point3-content{
+    width: 477px;
+   height: 220px;
+padding-left: 40px;
+}
+.point1 h2 ,.point2 h2 ,.point3 h2{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 700;
+line-height: 36px;
+
+
+margin-bottom: 10px;
+}
+.point1 p,.point2 p ,.point3 p{
+    margin-bottom: 44px;
+}
+.point1-img, .point2-img, .point3-img{
+    width: 259.56px;
+height: 217.01px;
+}
+.web-main-content img{
+width: 100%;
+height: 100%;
+
+}
+.point1-img, .point3-img{
+    padding-right: 30px;
+}
+.point2-img{
+    padding-left: 30px;
+}
