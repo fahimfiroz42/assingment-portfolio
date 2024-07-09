@@ -122,9 +122,9 @@ padding-top: 26px;
    height:1395px ;
    background-color: rgba(13, 19, 33, 0.02);
    border-radius: 16px;
-   
    margin: 0 auto;
-   margin-top: 74px;
+  
+   margin-top: 80px;
 }
 .web-main-content{
     width: 1050px;
@@ -132,7 +132,8 @@ padding-top: 26px;
     
   
    margin: 0 auto;
-   margin-top: 80px;
+  
+   padding-top: 50px;
 
 
     
