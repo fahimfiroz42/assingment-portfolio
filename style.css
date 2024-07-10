@@ -354,3 +354,94 @@ text-decoration-line: underline;
 /* my current target done */
 /* start footer section */
 
+.footer-part1{
+    width:1240px ;
+    height: 400px;
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    border-radius: 16px;
+background-image: url(./images/handshake.jpg);
+     margin: 0 auto;
+    box-sizing: border-box;
+    
+}
+.footer-content h1{
+    color: rgb(255, 255, 255);
+
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+
+text-align: center;
+}
+.footer-content p{
+    color: rgb(255, 255, 255) ;
+    text-align: center;
+}
+.feedback input{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+width: 548px;
+height: 57px;
+padding-left: 20px;
+}
+.feedback button{
+    width: 120px;
+height: 58px;
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+
+text-align: center;
+border: none;
+
+}
+.feedback{
+    text-align: center;
+    margin-top:40px;
+}
+.footer-content{
+    padding-top: 70px;
+}
+
+/* footer part 2 start */
+.footer-part2{
+    width: 1531px;
+height: 100px;
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+
+margin-top: 80px;
+
+}
+.footer2-content{
+display: flex;
+  justify-content: space-between;
+ padding-top: 30px;
+}
+.footer2-content h1{
+    color: rgb(13, 19, 33);
+
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+padding-left:150px ;
+
+}
+.footer2-content .link-container{
+    padding-right: 150px;
+}
+.link-container a{
+    padding-right: 10px;
+}
