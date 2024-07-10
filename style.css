@@ -301,6 +301,7 @@ line-height: 37px;
 
 .my-inspiration p{
     padding-top: 20px;
+   
 }
 
 .inspiration-video{
@@ -309,14 +310,15 @@ line-height: 37px;
      box-sizing: border-box;
      border: 1px solid rgba(13, 19, 33, 0.2);
      border-radius: 16px;
-
-
+     margin-top: 50px;
+   
 }
 
 
 .inspiration-video iframe{
     height: 540px;
     width: 1180px; 
+    border-radius: 16px;
 }
 
 .video{
