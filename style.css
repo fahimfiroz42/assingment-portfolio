@@ -283,7 +283,7 @@ line-height: 37px;
 .my-current-target{
     width:1240px ;
     height: 500px;
-    border: 2px solid green;
+    
     margin: auto;
     margin-top: 150px;
 }
@@ -343,3 +343,14 @@ line-height: 19px;
 text-align: left;
 text-decoration-line: underline;
 }
+.card1, .card2 ,.card3{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+/* my current target done */
+/* start footer section */
+
