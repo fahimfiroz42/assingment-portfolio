@@ -129,14 +129,8 @@ padding-top: 26px;
 .web-main-content{
     width: 1050px;
     height: 1235px;
-    
-  
-   margin: 0 auto;
-  
-   padding-top: 50px;
-
-
-    
+    margin: 0 auto;
+    padding-top: 50px    
 }
 .web-main-content .point1,.point2,.point3{
     display: flex;
@@ -154,6 +148,7 @@ padding-top: 26px;
 }
 .web-heading p{
     text-align: center;
+    padding-top:20px ;
 }
 
 .web-main-content .point1{
