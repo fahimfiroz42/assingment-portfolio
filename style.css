@@ -4,6 +4,9 @@
  padding: 0; 
  font-family: Azeret Mono;
 }
+
+
+
 /* Shared class */
 .p-primary{
 color: rgb(13, 19, 33);
@@ -12,6 +15,7 @@ font-weight: 400;
 line-height: 26px;
 opacity: 0.7;
 }
+
 .btn-primary{
    box-sizing: border-box;
    border: 1px solid rgb(13, 19, 33);
@@ -24,13 +28,17 @@ opacity: 0.7;
    width: 150px;
    height: 48px;
 }
+
+
 /* This is navbar section */
+
+
+
 .navbar{
     width: 1531px;
     height: 100px;
     display: flex;
     justify-content: space-between;
-    
     align-items: center;
     
 }
@@ -42,6 +50,7 @@ opacity: 0.7;
     padding-left:150px ;
     
 }
+
 /* First button */
 .btn-1 button{
     
@@ -56,34 +65,41 @@ font-weight: 600;
 line-height: 23px;
 text-align: center;
 }
+
 .btn-1{
     padding-right: 150px;
     
 }
+
 /* header section */
 /* adding a background image */
+
+
 .hero-bg{
     width: 1531px;
     height: 652px;
-  
     background-image: url(images/Hero-bg.png);
     background-position: center;
     background-size: cover;
 }
+
+
 .hero-bg-content{
     width: 998px;
     height: 582px;
-   
     margin: 0 auto;
     text-align: center;
-   
     box-sizing: border-box;
 }
+
+
 .hero-img{
     margin-top: 30px;
 }
+
+
 .hero-heading{
-    color: rgb(13, 19, 33);
+color: rgb(13, 19, 33);
 font-size: 35px;
 font-weight: 800;
 line-height: 68px;
@@ -104,17 +120,20 @@ padding-top: 26px;
 
 
 }
-.hero-para{
-  
-    
-    
-}
+
+
 .contact-link{
     padding-top: 30px;
 }
+
+
+
 /* done header section */
 /* start main section */
 /* why web development section */
+
+
+
 
 
 .why-web-development{
@@ -123,21 +142,26 @@ padding-top: 26px;
    background-color: rgba(13, 19, 33, 0.02);
    border-radius: 16px;
    margin: 0 auto;
-  
    margin-top: 80px;
 }
+
+
 .web-main-content{
     width: 1050px;
     height: 1235px;
     margin: 0 auto;
     padding-top: 50px    
 }
+
+
 .web-main-content .point1,.point2,.point3{
     display: flex;
     justify-content: space-between;
     align-items: center;
    
 }
+
+
 .web-heading h1{
     color: rgb(13, 19, 33);
     font-size: 32px;
@@ -146,202 +170,233 @@ padding-top: 26px;
     letter-spacing: 0%;
     text-align: center;
 }
+
 .web-heading p{
     text-align: center;
     padding-top:20px ;
 }
 
+
 .web-main-content .point1{
     width:1050px ;
     height:350px ;
-    
     border-radius: 16px;
-
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     margin-bottom:37px ;
     margin-top: 32px;
 }
+
+
 .web-main-content .point2{
     width:1050px ;
     height:350px ;
-  
     border-radius: 16px;
-
- background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
- margin-bottom:37px
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom:37px
 
 }
 
 .web-main-content .point3{
     border-radius: 16px;
-
-background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-
-
- width:1050px ;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width:1050px ;
     height:350px ;
     margin-bottom:37px;
 
 }
+
+
 .point1 .point1-content ,.point2 .point2-content,.point3 .point3-content{
-    width: 477px;
-   height: 220px;
+width: 477px;
+height: 220px;
 padding-left: 40px;
 }
+
+
 .point1 h2 ,.point2 h2 ,.point3 h2{
-    color: rgba(13, 19, 33, 0.7);
+color: rgba(13, 19, 33, 0.7);
 font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 700;
 line-height: 36px;
-
-
 margin-bottom: 10px;
 }
+
+
 .point1 p,.point2 p ,.point3 p{
     margin-bottom: 44px;
 }
+
+
+
 .point1-img, .point2-img, .point3-img{
     width: 259.56px;
 height: 217.01px;
 }
+
+
 .web-main-content img{
 width: 100%;
 height: 100%;
 
 }
+
+
 .point1-img, .point3-img{
     padding-right: 30px;
 }
+
+
 .point2-img{
     padding-left: 30px;
 }
+
+
 .point2-content{ padding-right: 150px;
     
 }
+
+
 /* web dev section done */
 /* starting my inispiration section */
+
+
+
 .my-inspiration{
     width:1240px ;
     height: 777px;
-   
     margin: 0 auto;
     margin-top: 90px;
 }
+
+
 .my-inspiration-content{
-    width: 852px;
+width: 852px;
 height: 115px;
 display: flex;
 flex-direction: column;
 align-items: center;
-
 padding-top: 10px;
 text-align: center;
 }
+
+
 .my-inspiration-main-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px;
 }
-.my-inspiration h2{
-    color: rgb(13, 19, 33);
 
+
+.my-inspiration h2{
+color: rgb(13, 19, 33);
 font-size: 32px;
 font-weight: 800;
 line-height: 37px;
-
 
 }
 
 .my-inspiration p{
     padding-top: 20px;
 }
+
 .inspiration-video{
-    width:1240px ;
-    height: 600px;
-   
-    box-sizing: border-box;
+     width:1240px ;
+     height: 600px;
+     box-sizing: border-box;
      border: 1px solid rgba(13, 19, 33, 0.2);
      border-radius: 16px;
 
+
 }
+
+
 .inspiration-video iframe{
     height: 540px;
-    width: 1180px;
-   
-
-  
+    width: 1180px; 
 }
+
 .video{
    text-align: center;
    padding-top: 32px;
 }
+
+
 /* ispiration section done */
 /* My current section sstart */
+
+
 .my-current-target{
     width:1240px ;
     height: 500px;
-    
     margin: auto;
     margin-top: 150px;
 }
-.target-heading{
-    color: rgb(13, 19, 33);
 
+
+.target-heading{
+
+color: rgb(13, 19, 33);
 font-size: 25px;
 font-weight: 800;
 line-height: 37px;
-
 text-align: center;
 }
+
+
 .target-heading p{
     padding-left: 50px;
     padding-top: 20px;
 }
+
 .card1 ,.card2,.card3{
-    width: 364px;
+   width: 364px;
    height: 300px;
    border-radius: 16px;
   
 }
-.card1{
- 
 
-    background: rgba(255, 76, 30, 0.05);
+.card1{
+  background: rgba(255, 76, 30, 0.05);
 }
+
 .card2{
 background: rgba(0, 76, 232, 0.05);
 }
+
 .card3{
     background: rgba(255, 223, 0, 0.05);
 }
 
+
 .card-container{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    
+    padding-top: 50px;   
 }
-.card-container h1{
-    color: rgb(13, 19, 33);
 
+
+.card-container h1{
+color: rgb(13, 19, 33);
 font-size: 24px;
 font-weight: 800;
 line-height: 36px;
-
 text-align: left;
 }
+
+
 .card-container a{
-    color: rgb(13, 19, 33);
+color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 700;
 line-height: 19px;
-
 text-align: left;
 text-decoration-line: underline;
 }
+
+
 .card1, .card2 ,.card3{
     display: flex;
     flex-direction: column;
@@ -359,48 +414,47 @@ text-decoration-line: underline;
 .my-next-target{
     width: 1240px;
     height: 871px;
-  
     margin: 0 auto;
 }
+
+
 .card-container2 a{
-    color: rgb(13, 19, 33);
+color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 700;
 line-height: 19px;
 
-
-
 }
 
 
 .card4 ,.card5,.card6{
-    width: 1240px;
-   height: 220px;
-   
- 
+    
+  width: 1240px;
+  height: 220px;
   display: flex;
-    gap: 50px;
+  gap: 50px;
   box-sizing: border-box;
   align-items: center;
   padding-left: 50px;
-
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.15);
   border-radius: 16px;
-  
   background: rgb(255, 255, 255);
   margin-bottom: 30px;
 
 
 }
+
 .card4
 {
     margin-top: 30px;
 }
+
 .card4 h1,.card5 h1, .card6 h1{
 padding-bottom: 10px;
 }
+
 
 .card4 p,.card5 p, .card6 p{
     padding-bottom: 10px;
@@ -413,95 +467,101 @@ padding-bottom: 10px;
 
 /* start footer section */
 
-.footer-part1{
-    width:1240px ;
+
+
+.footer-part1 {
+    width: 1240px;
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
-    background-position: cover;
+    background-size: cover;
     border-radius: 16px;
     margin-top: 100px;
     margin: 0 auto;
-    background-image:url(./images/handshake.jpg);
-    box-sizing: border-box;
-   
-  
-}
-.footer-content h1{
-    color: rgb(255, 255, 255);
+    background-color:rgba(0, 0, 0, 0.61);
+    background-image: url(./images/handshake.jpg);
+    background-blend-mode: overlay;
+  }
 
+
+
+.footer-content h1{
+color: rgb(255, 255, 255);
 font-size: 32px;
 font-weight: 700;
 line-height: 36px;
-
 text-align: center;
 }
+
 .footer-content p{
     color: rgb(255, 255, 255) ;
     text-align: center;
 }
+
 .feedback input{
 box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 8px;
-
 background: rgb(255, 255, 255);
 width: 548px;
 height: 57px;
 padding-left: 20px;
 }
+
 .feedback button{
 width: 120px;
 height: 58px;
 border-radius: 8px;
-
 background: rgb(255, 255, 255);
 color: rgb(13, 19, 33);
-
 font-size: 15px;
 font-weight: 600;
 line-height: 23px;
-
 text-align: center;
 border: none;
 
 }
+
 .feedback{
     text-align: center;
     margin-top:40px;
 }
+
 .footer-content{
     padding-top: 70px;
 }
 
 /* footer part 2 start */
+
 .footer-part2{
     width: 1531px;
-height: 100px;
-border-radius: 16px;
-
-background: rgba(13, 19, 33, 0.03);
-
-margin-top: 80px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
 
 }
+
+
 .footer2-content{
-display: flex;
+  display: flex;
   justify-content: space-between;
- padding-top: 30px;
+  padding-top: 30px;
 }
+
 .footer2-content h1{
     color: rgb(13, 19, 33);
-
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-padding-left:150px ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding-left:150px ;
 
 }
+
 .footer2-content .link-container{
     padding-right: 150px;
 }
+
 .link-container a{
     padding-right: 10px;
 }
