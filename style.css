@@ -155,6 +155,7 @@ padding-top: 26px;
 .web-heading p{
     text-align: center;
 }
+
 .web-main-content .point1{
     width:1050px ;
     height:350px ;
@@ -219,6 +220,9 @@ height: 100%;
 }
 .point2-img{
     padding-left: 30px;
+}
+.point2-content{ padding-right: 150px;
+    
 }
 /* web dev section done */
 /* starting my inispiration section */
@@ -352,20 +356,81 @@ text-decoration-line: underline;
 }
 
 /* my current target done */
+
+
+
+/* my next target */
+
+.my-next-target{
+    width: 1240px;
+    height: 871px;
+  
+    margin: 0 auto;
+}
+.card-container2 a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+
+
+
+}
+
+
+.card4 ,.card5,.card6{
+    width: 1240px;
+   height: 220px;
+   
+ 
+  display: flex;
+    gap: 50px;
+  box-sizing: border-box;
+  align-items: center;
+  padding-left: 50px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  
+  background: rgb(255, 255, 255);
+  margin-bottom: 30px;
+
+
+}
+.card4
+{
+    margin-top: 30px;
+}
+.card4 h1,.card5 h1, .card6 h1{
+padding-bottom: 10px;
+}
+
+.card4 p,.card5 p, .card6 p{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
 /* start footer section */
 
 .footer-part1{
     width:1240px ;
     height: 400px;
-   
     background-position: center;
     background-repeat: no-repeat;
     background-position: cover;
     border-radius: 16px;
-background-image: url(./images/handshake.jpg);
-     margin: 0 auto;
+    margin-top: 100px;
+    margin: 0 auto;
+    background-image:url(./images/handshake.jpg);
     box-sizing: border-box;
-    
+   
+  
 }
 .footer-content h1{
     color: rgb(255, 255, 255);
@@ -381,7 +446,7 @@ text-align: center;
     text-align: center;
 }
 .feedback input{
-    box-sizing: border-box;
+box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 8px;
 
@@ -391,7 +456,7 @@ height: 57px;
 padding-left: 20px;
 }
 .feedback button{
-    width: 120px;
+width: 120px;
 height: 58px;
 border-radius: 8px;
 
